@@ -74,6 +74,8 @@ int main() {
             cout << "⚠️ File " << filename << " exists in commit2 but not in commit1.\n";
         }
     }
+    // Final review by Nardos
+
 
     return 0;
 }
