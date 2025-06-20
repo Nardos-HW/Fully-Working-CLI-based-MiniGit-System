@@ -1,1 +1,11 @@
-this is my note
+Personal Notes – Nardos
+
+While working on the MiniGit system, I was mainly responsible for implementing the merge functionality and handling merge conflicts. It was tricky to figure out how to determine the lowest common ancestor between commits, especially in branching scenarios.
+
+One challenge was making sure conflicting changes were detected and clearly marked. I added CONFLICT messages to help users manually resolve them, just like Git does.
+
+Writing the documentation helped me solidify how all the parts (init, commit, checkout, merge) fit together — like a puzzle.
+
+Teamwork went smoothly. We divided the workload early, peer-reviewed each other's code, and tested the whole system together. This definitely helped me understand Git internals better.
+
+– Nardos
